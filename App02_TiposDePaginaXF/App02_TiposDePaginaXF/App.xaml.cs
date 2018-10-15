@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App02_TiposDePaginaXF.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace App02_TiposDePaginaXF
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new CarrouselView();
         }
 
         protected override void OnStart()

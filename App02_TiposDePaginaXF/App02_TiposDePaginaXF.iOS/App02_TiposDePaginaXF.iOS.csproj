@@ -157,4 +157,7 @@
       <Name>App02_TiposDePaginaXF</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\xamarin.png" />
+  </ItemGroup>
 </Project>

@@ -259,3 +259,17 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+#Ignore App_Calcproject
+
+App02_TiposDePaginaXF/App02_TiposDePaginaXF/bin
+App02_TiposDePaginaXF/App02_TiposDePaginaXF/obj
+
+App02_TiposDePaginaXF/App02_TiposDePaginaXF.Android/bin
+App02_TiposDePaginaXF/App02_TiposDePaginaXF.Android/obj
+
+App02_TiposDePaginaXF/App02_TiposDePaginaXF.iOS/bin
+App02_TiposDePaginaXF/App02_TiposDePaginaXF.iOS/obj
+
+App02_TiposDePaginaXF/App02_TiposDePaginaXF.UWP/bin
+App02_TiposDePaginaXF/App02_TiposDePaginaXF.UWP/obj

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App02_TiposDePaginaXF.Views.CarrouselView"
+             xmlns:local="clr-namespace:App02_TiposDePaginaXF.Views"
+             BackgroundColor="LightSkyBlue">
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                <Label Text="Tipo de página 1" TextColor="Blue" />
+                <Image Source="xamarin.png" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                <Label Text="Tipo de página 2" TextColor="Blue" />
+                <Image Source="xamarin.png" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <!-- START - Exemplo de adição de ContentPage através da vinculação de namespace-->
+    <local:AuxiliarCarrouselView />
+    <!-- END -->
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                <Label Text="Tipo de página 3" TextColor="Blue" />
+                <Image Source="xamarin.png" />
+                <Button Text="Avançar" Clicked="Avancar_Clicked" TextColor="Black" BackgroundColor="White" BorderWidth="1" BorderColor="Black" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</CarouselPage>
