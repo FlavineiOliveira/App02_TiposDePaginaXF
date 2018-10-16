@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App02_TiposDePaginaXF.Views.MasterDetail;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,10 +20,7 @@ namespace App02_TiposDePaginaXF.Views
 
         private void Avancar_Clicked(object sender, EventArgs e)
         {
-            App.Current.MainPage = new NavigationPage(new Navigation1View()) {
-                BarTextColor = Color.White,
-                BarBackgroundColor = Color.Black
-            };
+            App.Current.MainPage = new MasterDetailPageView();
         }
     }
 }

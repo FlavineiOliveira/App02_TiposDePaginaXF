@@ -12,7 +12,8 @@
             <Label Text="Olá, esta é a primeira página utilizando o navigation!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="Próximo" Clicked="Proximo_Clicked" />
+            <Button Text="Próximo Página" Clicked="ProximoPagina_Clicked" />
+            <Button Text="Abrir Modal" Clicked="AbrirModal_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

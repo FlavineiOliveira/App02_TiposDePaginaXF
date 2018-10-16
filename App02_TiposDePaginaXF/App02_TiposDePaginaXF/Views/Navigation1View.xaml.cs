@@ -17,9 +17,14 @@ namespace App02_TiposDePaginaXF.Views
 			InitializeComponent ();
 		}
 
-        private void Proximo_Clicked(object sender, EventArgs e)
+        private async void ProximoPagina_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Navigation2View());
+            await Navigation.PushAsync(new Navigation2View());
+        }
+
+        private async void AbrirModal_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationModalView());
         }
     }
 }
